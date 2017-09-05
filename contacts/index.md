@@ -2,7 +2,8 @@
 layout: default
 title: Контакты
 ---
-##Контакты
+
+## Контакты
 
 scobt@gmail.ru
 
