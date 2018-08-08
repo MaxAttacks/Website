@@ -6,3 +6,10 @@ locale: ru_RU
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "googlef3e47b42e26bf6eb.html.html"
+    values:
+      sitemap: false
