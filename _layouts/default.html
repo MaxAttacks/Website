@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "ru-RU" }}">
   <head>
     <meta charset="UTF-8">
 
@@ -7,6 +7,7 @@
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
+    <meta name="lang" content="ru_RU">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
@@ -14,9 +15,9 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ site.description }}</h2>
-      <a href="{{ site.baseurl }}" class="btn">О нас</a>
-      <a href="{{ site.baseurl }}/courses/" class="btn">Курсы обучения</a>
-      <a href="{{ site.baseurl }}/contacts/" class="btn">Контакты</a>
+      <a href="{{ site.url }}" class="btn">О нас</a>
+      <a href="{{ site.url }}/courses/" class="btn">Курсы обучения</a>
+      <a href="{{ site.url }}/contacts/" class="btn">Контакты</a>
     </section>
 
     <section class="main-content">
