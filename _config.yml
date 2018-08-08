@@ -5,3 +5,4 @@ locale: ru_RU
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
