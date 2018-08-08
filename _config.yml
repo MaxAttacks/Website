@@ -1,5 +1,7 @@
 theme: jekyll-theme-cayman
 title: Сибирский центр обучения
+lang: ru_RU
+locale: ru_RU
 
 plugins:
   - jekyll-seo-tag
