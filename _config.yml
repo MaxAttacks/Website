@@ -3,6 +3,10 @@ title: Сибирский центр обучения
 lang: ru_RU
 locale: ru_RU
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
