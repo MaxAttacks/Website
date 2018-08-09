@@ -20,7 +20,7 @@
     <!-- <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> -->
     <style type="text/css">
         {% capture include_to_scssify %}
-            {% include style.scss %}
+            {% include main.scss %}
         {% endcapture %}
         {{ include_to_scssify | scssify }}
     </style>
