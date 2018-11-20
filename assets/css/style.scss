@@ -5,7 +5,7 @@
 
 .tab {
   display: inline-block;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: rgba(255,255,255,0.0);
@@ -19,26 +19,26 @@
   }
 
   + .tab {
-    margin-left: 0.5rem;
+    margin-left: 0rem;
   }
 
   @include large {
-    padding: 0.75rem 1rem;
+    padding: 0.8rem 0.8rem;
   }
 
   @include medium {
-    padding: 0.6rem 0.9rem;
+    padding: 0.6rem 0.6rem;
     font-size: 1rem;
   }
 
   @include small {
     display: inline-flex;
     width: 100%;
-    padding: 0.75rem;
+    padding: 0.6rem;
     font-size: 1rem;
 
     + .tab {
-      margin-top: 0.5rem;
+      margin-top: 0rem;
       margin-left: 0;
     }
   }
@@ -64,10 +64,8 @@
 
 .page-header-small {
   display: flow-root;
-  color: $header-heading-color;
   text-align: right;
-  background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-color: rgb(25,116,166);
 
   @include large {
     padding: 0rem 6rem;
@@ -78,6 +76,6 @@
   }
 
   @include small {
-    padding: 0rem 2rem;
+    padding: 0rem 0rem;
   }
 }
