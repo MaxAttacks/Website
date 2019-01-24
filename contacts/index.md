@@ -5,6 +5,6 @@ title: Контакты
 
 ## Контакты
 
-scobt@gmail.ru
+<a href="mailto:metodist.sco@gmail.com">metodist.sco@gmail.com</a>
 
-+7 (913) 700 50 50
+<a href="tel:89137582532">8 (913) 758-25-32</a>
